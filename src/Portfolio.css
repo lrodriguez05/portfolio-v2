@@ -1,0 +1,21 @@
+a:hover {
+  cursor: pointer;
+  color: #2563eb;
+}
+
+.grid-section-one {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+@media (min-width: 640px) {
+  .about-me {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
