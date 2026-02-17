@@ -41,14 +41,21 @@ function ProjectCard({
             ))}
           </div>
           <div className="flex gap-2">
-            {social.map((SocialIcon, index) => (
-              <button
-                key={index}
-                className="text-gray-600 hover:text-gray-800 p-2"
-              >
-                <SocialIcon size={16} />
-              </button>
-            ))}
+            {social.map((item, index) => {
+              const Icon = item.icon;
+
+              return (
+                <a
+                  key={index}
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-800 p-2"
+                >
+                  <Icon size={16} />
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
