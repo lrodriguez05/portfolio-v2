@@ -207,7 +207,7 @@ const myData = {
       gradientDir: "r",
       Icon: Code,
       title: "CV",
-      description: "Sitio web para gestionar una libreria",
+      description: "Mi curriculum vitae interactivo",
       tech: ["TypeScript", "TailwindCSS"],
       social: [
         { icon: Github, link: "https://github.com/lrodriguez05/me-cv" },
