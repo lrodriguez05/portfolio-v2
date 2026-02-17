@@ -226,7 +226,7 @@ const myData = {
       Icon: Code,
       title: "To-Do App",
       description: "Aplicacion de tareas con React Hoocks",
-      tech: ["CSS"],
+      tech: ["JavaScript", "CSS"],
       social: [
         { icon: Github, link: "https://github.com/lrodriguez05/todo-app" },
         { icon: ExternalLink, link: "https://lrodriguez05.github.io/todo-app" },
