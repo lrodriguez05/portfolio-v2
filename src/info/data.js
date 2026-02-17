@@ -208,7 +208,7 @@ const myData = {
       Icon: Code,
       title: "CV",
       description: "Sitio web para gestionar una libreria",
-      tech: ["JavaScript", "TailwindCSS", "ReactJS"],
+      tech: ["TypeScript", "TailwindCSS"],
       social: [
         { icon: Github, link: "https://github.com/lrodriguez05/me-cv" },
         { icon: ExternalLink, link: "https://me-cv-kappa.vercel.app/" },
